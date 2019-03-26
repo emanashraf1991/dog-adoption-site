@@ -1,0 +1,27 @@
+{
+  "name": "dog-adoption-site",
+  "version": "1.0.0",
+  "description": "kennels (admins) can upload pups for adoption. Site visitors can view available doggos and submit requests to adopt them.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanashraf1991/dog-adoption-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanashraf1991/dog-adoption-site/issues"
+  },
+  "homepage": "https://github.com/emanashraf1991/dog-adoption-site#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "knex": "^0.16.3",
+    "nodemon": "^1.18.10",
+    "sqlite3": "^4.0.6"
+  }
+}
